@@ -5,7 +5,7 @@ Thank you for considering contributing to Clean Code Review! Here are some guide
 ## How to Contribute
 1. **Fork the repository** and create your branch from `main`.
 2. **Make your changes** and ensure they adhere to the clean code principles.
-3. **Write tests** for any new functionality you implement.
+3. **Write tests** for any new functionality you implement, following best practices for test coverage and structure.
 4. **Commit your changes** with a clear and concise description of what you've done.
 5. **Push your branch** and create a pull request. When creating a pull request, please use the provided pull request template to ensure that all necessary information is included.
 
