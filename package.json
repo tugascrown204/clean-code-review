@@ -1,0 +1,19 @@
+{
+  "name": "clean-code-review",
+  "version": "1.0.0",
+  "description": "A tool for automated code analysis and reviews based on clean coding principles.",
+  "main": "index.js",
+  "bin": {
+    "clean-code-review": "cli.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "eslint": "^8.0.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.0"
+  },
+  "license": "MIT"
+}
