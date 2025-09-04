@@ -13,4 +13,4 @@ Thank you for considering contributing to Clean Code Review! Here are some guide
 Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing.
 
 ## Questions?
-Feel free to open an issue or contact the maintainers if you have any questions!
+If you have any questions, feel free to open an issue or contact the maintainers!
