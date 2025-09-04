@@ -4,8 +4,8 @@ const path = require('path');
 const args = process.argv.slice(2);
 const codePath = args[0] || '.';
 
-if (!codePath) {
-  console.error('Please provide a path to the code.');
+if (!args[0]) {
+  console.error('Please provide a path to the code, using `node cli.js <path>`');
   process.exit(1);
 }
 
