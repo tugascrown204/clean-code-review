@@ -1,1 +1,1 @@
-module.exports = require('./cli');
+export { default } from './cli';
