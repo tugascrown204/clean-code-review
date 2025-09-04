@@ -19,6 +19,8 @@ exec(`eslint ${path.resolve(codePath)}`, (err, stdout, stderr) => {
   if (err) {
     console.error(`Error executing ESLint: ${stderr.trim() || 'unknown error'}`);
     process.exit(1);
+  } else if (stderr) {
+    console.error(`ESLint warnings/errors: ${stderr.trim()}`);
   }
   console.log(stdout);
 });
