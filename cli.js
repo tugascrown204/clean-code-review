@@ -17,7 +17,7 @@ if (!fs.existsSync(codePath)) {
 
 exec(`eslint ${path.resolve(codePath)}`, (err, stdout, stderr) => {
   if (err) {
-    console.error(`Error executing ESLint: ${stderr}`);
+    console.error(`Error executing ESLint: ${stderr || 'unknown error'}`);
     process.exit(1);
   }
   console.log(stdout);
