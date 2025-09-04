@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "eslint": "^8.42.0"
+    "eslint": "^8.44.0"
   },
   "devDependencies": {
     "jest": "^29.0.0"
